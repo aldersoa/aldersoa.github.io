@@ -12,14 +12,14 @@ a {
 .wassup {
 	text-align: center;
 	position: relative;
-	top: 50%;
+	top: 25%;
     transform: translateY(-50%);
 }
 .name {
 	font-size: 60px;
 	text-transform: uppercase;
 	font-weight: 900;
-	font-style: italic;
+	font-style: bold;
 }
 .whereami {
 	margin: 20px auto;
