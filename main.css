@@ -1,11 +1,15 @@
-div {
-  width: 200px;
-  height: 200px;
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html {
+  width: 100%;
+  height: 100%;
   display: block;
   position: relative;
 }
 
-div::after {
+html::after {
   content: "";
   background: url(http://www.wall321.com/thumbnails/detail/20120511/path%202560x1600%20wallpaper_www.wall321.com_5.jpg);
   opacity: 0.5;
@@ -16,3 +20,13 @@ div::after {
   position: absolute;
   z-index: -1;   
 }
+
+</style>
+</head>
+<body>
+<div>
+<h1>Hello</h1>
+<p>This is a paragraph</p>
+</div>
+</body>
+</html>
